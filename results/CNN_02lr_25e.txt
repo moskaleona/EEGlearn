@@ -1,0 +1,133 @@
+Training the CNN Model...
+Building model and compiling functions...
+C:\ProgramData\Anaconda3\envs\my_env27\lib\site-packages\lasagne\layers\conv.py:460: UserWarning: The `image_shape` keyword argument to `tensor.nnet.conv2d` is deprecated, it has been renamed to `input_shape`.
+  border_mode='full')
+Starting training...
+Epoch 1 of 25 took 339.631s
+  training loss:		0.654244
+  validation loss:		0.632539
+  validation accuracy:		64.51 %
+  validation auc:		0.65451
+Epoch 2 of 25 took 377.568s
+  training loss:		0.652681
+  validation loss:		0.649376
+  validation accuracy:		62.93 %
+  validation auc:		0.63329
+Epoch 3 of 25 took 342.972s
+  training loss:		0.635208
+  validation loss:		0.628058
+  validation accuracy:		65.27 %
+  validation auc:		0.66372
+Epoch 4 of 25 took 344.209s
+  training loss:		0.627202
+  validation loss:		0.631213
+  validation accuracy:		66.64 %
+  validation auc:		0.67233
+Epoch 5 of 25 took 342.207s
+  training loss:		0.624522
+  validation loss:		0.612859
+  validation accuracy:		65.98 %
+  validation auc:		0.68618
+Epoch 6 of 25 took 343.048s
+  training loss:		0.620913
+  validation loss:		0.630513
+  validation accuracy:		63.26 %
+  validation auc:		0.66129
+Epoch 7 of 25 took 342.267s
+  training loss:		0.616732
+  validation loss:		0.607070
+  validation accuracy:		66.16 %
+  validation auc:		0.71592
+Epoch 8 of 25 took 342.334s
+  training loss:		0.618827
+  validation loss:		0.616322
+  validation accuracy:		66.37 %
+  validation auc:		0.66527
+Epoch 9 of 25 took 344.376s
+  training loss:		0.616646
+  validation loss:		0.617305
+  validation accuracy:		66.94 %
+  validation auc:		0.68738
+Epoch 10 of 25 took 338.258s
+  training loss:		0.611229
+  validation loss:		0.606014
+  validation accuracy:		67.52 %
+  validation auc:		0.69894
+Epoch 11 of 25 took 334.620s
+  training loss:		0.612290
+  validation loss:		0.592903
+  validation accuracy:		69.11 %
+  validation auc:		0.73470
+Epoch 12 of 25 took 333.399s
+  training loss:		0.608388
+  validation loss:		0.612098
+  validation accuracy:		69.48 %
+  validation auc:		0.70755
+Epoch 13 of 25 took 333.568s
+  training loss:		0.600072
+  validation loss:		0.602567
+  validation accuracy:		68.31 %
+  validation auc:		0.70043
+Epoch 14 of 25 took 332.761s
+  training loss:		0.607883
+  validation loss:		0.612625
+  validation accuracy:		67.93 %
+  validation auc:		0.71185
+Epoch 15 of 25 took 334.154s
+  training loss:		0.607407
+  validation loss:		0.601228
+  validation accuracy:		68.61 %
+  validation auc:		0.71136
+Epoch 16 of 25 took 333.567s
+  training loss:		0.595493
+  validation loss:		0.595974
+  validation accuracy:		70.15 %
+  validation auc:		0.72718
+Epoch 17 of 25 took 334.240s
+  training loss:		0.594722
+  validation loss:		0.594587
+  validation accuracy:		68.70 %
+  validation auc:		0.74385
+Epoch 18 of 25 took 333.465s
+  training loss:		0.590326
+  validation loss:		0.588390
+  validation accuracy:		69.09 %
+  validation auc:		0.73876
+Epoch 19 of 25 took 333.119s
+  training loss:		0.592408
+  validation loss:		0.596280
+  validation accuracy:		67.72 %
+  validation auc:		0.72172
+Epoch 20 of 25 took 334.927s
+  training loss:		0.601227
+  validation loss:		0.578088
+  validation accuracy:		70.86 %
+  validation auc:		0.75557
+Epoch 21 of 25 took 333.040s
+  training loss:		0.601570
+  validation loss:		0.593530
+  validation accuracy:		68.31 %
+  validation auc:		0.72847
+Epoch 22 of 25 took 332.656s
+  training loss:		0.587644
+  validation loss:		0.594687
+  validation accuracy:		70.65 %
+  validation auc:		0.72826
+Epoch 23 of 25 took 328.749s
+  training loss:		0.585616
+  validation loss:		0.586959
+  validation accuracy:		71.04 %
+  validation auc:		0.75806
+Epoch 24 of 25 took 328.700s
+  training loss:		0.587290
+  validation loss:		0.601015
+  validation accuracy:		66.74 %
+  validation auc:		0.72590
+Epoch 25 of 25 took 328.069s
+  training loss:		0.586717
+  validation loss:		0.610227
+  validation accuracy:		67.92 %
+  validation auc:		0.75543
+--------------------------------------------------
+Best validation accuracy:		71.04 %
+Best validation auc:		0.75806
