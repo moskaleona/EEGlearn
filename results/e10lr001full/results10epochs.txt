@@ -1,0 +1,210 @@
+Training the CNN Model
+
+Epoch 1 of 10 took 321.980s
+  training loss:		0.650188
+  validation loss:		0.633655
+  validation accuracy:		63.92 %
+Final results:
+  test loss:			0.627485
+  test accuracy:		70.28 %
+  test auc:			0.52930
+
+
+Epoch 2 of 10 took 307.088s
+  training loss:		0.641543
+  validation loss:		0.626828
+  validation accuracy:		64.68 %
+Final results:
+  test loss:			0.594226
+  test accuracy:		72.25 %
+  test auc:			0.49075
+
+
+Epoch 3 of 10 took 299.717s
+  training loss:		0.627944
+  validation loss:		0.617022
+  validation accuracy:		67.24 %
+Final results:
+  test loss:			0.595462
+  test accuracy:		71.47 %
+  test auc:			0.59004
+
+
+Epoch 4 of 10 took 298.837s
+  training loss:		0.614856
+  validation loss:		0.639311
+  validation accuracy:		65.18 %
+Final results:
+  test loss:			0.607228
+  test accuracy:		70.60 %
+  test auc:			0.56403
+
+
+Epoch 5 of 10 took 298.022s
+  training loss:		0.611290
+  validation loss:		0.622405
+  validation accuracy:		66.07 %
+Final results:
+  test loss:			0.603682
+  test accuracy:		72.25 %
+  test auc:			0.59033
+
+
+Epoch 6 of 10 took 297.152s
+  training loss:		0.607511
+  validation loss:		0.609021
+  validation accuracy:		67.83 %
+Final results:
+  test loss:			0.596216
+  test accuracy:		72.53 %
+  test auc:			0.61426
+
+
+Epoch 7 of 10 took 296.094s
+  training loss:		0.596028
+  validation loss:		0.599735
+  validation accuracy:		67.33 %
+Final results:
+  test loss:			0.599951
+  test accuracy:		72.05 %
+  test auc:			0.57779
+
+
+Epoch 8 of 10 took 298.838s
+  training loss:		0.589728
+  validation loss:		0.596213
+  validation accuracy:		68.04 %
+Final results:
+  test loss:			0.611234
+  test accuracy:		69.64 %
+  test auc:			0.58446
+
+
+Epoch 9 of 10 took 296.978s
+  training loss:		0.594241
+  validation loss:		0.583582
+  validation accuracy:		69.12 %
+Final results:
+  test loss:			0.621372
+  test accuracy:		68.77 %
+  test auc:			0.57103
+
+
+Epoch 10 of 10 took 296.407s
+  training loss:		0.590605
+  validation loss:		0.581800
+  validation accuracy:		69.19 %
+Final results:
+  test loss:			0.616949
+  test accuracy:		69.35 %
+  test auc:			0.62648
+--------------------------------------------------
+Best validation accuracy:		69.19 %
+Best test accuracy:		69.35 %
+Best test auc:		0.62648
+
+Training the LSTM-CONV Model...
+
+Epoch 1 of 10 took 906.702s
+  training loss:		0.645399
+  validation loss:		0.631095
+  validation accuracy:		64.20 %
+Final results:
+  test loss:			0.594162
+  test accuracy:		72.25 %
+  test auc:			0.55751
+
+
+Epoch 2 of 10 took 913.567s
+  training loss:		0.619959
+  validation loss:		0.646219
+  validation accuracy:		65.47 %
+Final results:
+  test loss:			0.590270
+  test accuracy:		71.66 %
+  test auc:			0.63173
+
+
+Epoch 3 of 10 took 913.958s
+  training loss:		0.610089
+  validation loss:		0.605382
+  validation accuracy:		68.91 %
+Final results:
+  test loss:			0.611705
+  test accuracy:		70.97 %
+  test auc:			0.62298
+
+
+Epoch 4 of 10 took 913.183s
+  training loss:		0.600591
+  validation loss:		0.597120
+  validation accuracy:		68.32 %
+Final results:
+  test loss:			0.611331
+  test accuracy:		68.24 %
+  test auc:			0.62109
+
+
+Epoch 5 of 10 took 927.201s
+  training loss:		0.597039
+  validation loss:		0.647234
+  validation accuracy:		64.49 %
+Final results:
+  test loss:			0.587520
+  test accuracy:		70.99 %
+  test auc:			0.65461
+
+
+Epoch 6 of 10 took 914.073s
+  training loss:		0.588545
+  validation loss:		0.586738
+  validation accuracy:		68.02 %
+Final results:
+  test loss:			0.595482
+  test accuracy:		70.47 %
+  test auc:			0.63602
+
+
+Epoch 7 of 10 took 915.933s
+  training loss:		0.585983
+  validation loss:		0.583833
+  validation accuracy:		68.71 %
+Final results:
+  test loss:			0.612106
+  test accuracy:		69.11 %
+  test auc:			0.65524
+
+
+Epoch 8 of 10 took 918.605s
+  training loss:		0.573692
+  validation loss:		0.585738
+  validation accuracy:		69.62 %
+Final results:
+  test loss:			0.615571
+  test accuracy:		67.24 %
+  test auc:			0.62700
+
+
+Epoch 9 of 10 took 921.684s
+  training loss:		0.564617
+  validation loss:		0.594821
+  validation accuracy:		68.61 %
+Final results:
+  test loss:			0.608526
+  test accuracy:		69.42 %
+  test auc:			0.62304
+
+
+Epoch 10 of 10 took 914.746s
+  training loss:		0.561302
+  validation loss:		0.583400
+  validation accuracy:		68.43 %
+Final results:
+  test loss:			0.591488
+  test accuracy:		71.27 %
+  test auc:			0.65796
+--------------------------------------------------
+Best validation accuracy:		69.62 %
+Best test accuracy:		71.27 %
+Best test auc:		0.65796
+Done!

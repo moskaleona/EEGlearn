@@ -1,0 +1,71 @@
+Training the CNN Model
+Epoch 1 of 5 took 330.028s
+  training loss:		0.655856
+  validation loss:		0.626998
+  validation accuracy:		64.03 %
+Final results:
+  test loss:			0.611538
+  test accuracy:		71.95 %
+Epoch 2 of 5 took 309.403s
+  training loss:		0.626728
+  validation loss:		0.627531
+  validation accuracy:		64.31 %
+Final results:
+  test loss:			0.622385
+  test accuracy:		71.75 %
+Epoch 3 of 5 took 314.353s
+  training loss:		0.619555
+  validation loss:		0.618381
+  validation accuracy:		68.52 %
+Final results:
+  test loss:			0.627119
+  test accuracy:		69.82 %
+Epoch 4 of 5 took 313.102s
+  training loss:		0.613534
+  validation loss:		0.617730
+  validation accuracy:		66.28 %
+Epoch 5 of 5 took 314.330s
+  training loss:		0.608217
+  validation loss:		0.605287
+  validation accuracy:		68.22 %
+--------------------------------------------------
+Best validation accuracy:		68.52 %
+Best test accuracy:		69.82 %
+
+
+
+Training the LSTM-CONV Model
+
+Epoch 1 of 5 took 931.260s
+  training loss:		0.653975
+  validation loss:		0.631131
+  validation accuracy:		63.62 %
+Final results:
+  test loss:			0.598925
+  test accuracy:		72.34 %
+Epoch 2 of 5 took 936.006s
+  training loss:		0.626404
+  validation loss:		0.619060
+  validation accuracy:		64.99 %
+Final results:
+  test loss:			0.602887
+  test accuracy:		72.64 %
+Epoch 3 of 5 took 932.807s
+  training loss:		0.613644
+  validation loss:		0.608305
+  validation accuracy:		67.15 %
+Final results:
+  test loss:			0.623075
+  test accuracy:		72.14 %
+Epoch 4 of 5 
+  validation accuracy:		67.05 %
+Epoch 5 of 5 took 986.921s
+  training loss:		0.594020
+  validation loss:		0.585923
+  validation accuracy:		68.04 %
+Final results:
+  test loss:			0.619739
+  test accuracy:		68.34 %
+--------------------------------------------------
+Best validation accuracy:		68.04 %
+Best test accuracy:		68.34 %
