@@ -100,26 +100,36 @@ def load_data(data_file):
     return dataMat['features'][:, :-1], dataMat['features'][:, -1] - 1   # Sequential indices
 
 
-def reformatInput(data, labels, indices):
+def reformatInput(data, labels, indices, test=True):
     """
-    Receives the the indices for train and test datasets.
+    Receives the indices for train and test datasets.
     Outputs the train, validation, and test data and label datasets.
     """
+    if test:
+        trainIndices = indices[0][len(indices[1]):]
+        validIndices = indices[0][:len(indices[1])]
+        testIndices = indices[1]
+        # Shuffling training data
+        # shuffledIndices = np.random.permutation(len(trainIndices))
+        # trainIndices = trainIndices[shuffledIndices]
+        if data.ndim == 4:
+            return [(data[trainIndices], np.squeeze(labels[trainIndices]).astype(np.int32)),
+                    (data[validIndices], np.squeeze(labels[validIndices]).astype(np.int32)),
+                    (data[testIndices], np.squeeze(labels[testIndices]).astype(np.int32))]
+        elif data.ndim == 5:
+            return [(data[:, trainIndices], np.squeeze(labels[trainIndices]).astype(np.int32)),
+                    (data[:, validIndices], np.squeeze(labels[validIndices]).astype(np.int32)),
+                    (data[:, testIndices], np.squeeze(labels[testIndices]).astype(np.int32))]
+    else:
+        trainIndices = indices[0]
+        validIndices = indices[1]
+        if data.ndim == 4:
+            return [(data[trainIndices], np.squeeze(labels[trainIndices]).astype(np.int32)),
+                    (data[validIndices], np.squeeze(labels[validIndices]).astype(np.int32))]
+        elif data.ndim == 5:
+            return [(data[:, trainIndices], np.squeeze(labels[trainIndices]).astype(np.int32)),
+                    (data[:, validIndices], np.squeeze(labels[validIndices]).astype(np.int32))]
 
-    trainIndices = indices[0][len(indices[1]):]
-    validIndices = indices[0][:len(indices[1])]
-    testIndices = indices[1]
-    # Shuffling training data
-    # shuffledIndices = np.random.permutation(len(trainIndices))
-    # trainIndices = trainIndices[shuffledIndices]
-    if data.ndim == 4:
-        return [(data[trainIndices], np.squeeze(labels[trainIndices]).astype(np.int32)),
-                (data[validIndices], np.squeeze(labels[validIndices]).astype(np.int32)),
-                (data[testIndices], np.squeeze(labels[testIndices]).astype(np.int32))]
-    elif data.ndim == 5:
-        return [(data[:, trainIndices], np.squeeze(labels[trainIndices]).astype(np.int32)),
-                (data[:, validIndices], np.squeeze(labels[validIndices]).astype(np.int32)),
-                (data[:, testIndices], np.squeeze(labels[testIndices]).astype(np.int32))]
 
 
 if __name__ == '__main__':

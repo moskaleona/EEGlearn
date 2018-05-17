@@ -1,6 +1,9 @@
+EEGlearn for intention classification.
 This repository was cloned from https://github.com/pbashivan/EEGLearn.
-There are some additional helpful code files for data preprocessing and so on.
+But it was adopted for another classification task (see https://www.frontiersin.org/articles/10.3389/fnins.2016.00528/full).
+Also here are some code for data preprocessing and sample data.
 
+Original readme:
 # EEGLearn
 A set of functions for supervised feature learning/classification of mental states from EEG based on "EEG images".
 This code can be used to construct sequence of images (EEG movie snippets) from ongoing EEG activities and to classify between different cognitive states through recurrent-convolutional neural
